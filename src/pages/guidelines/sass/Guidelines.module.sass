@@ -1,0 +1,77 @@
+@import "./../../../sass/variables"
+
+.content
+    margin: 24px 48px
+
+.logos
+
+.logo
+    margin-top: 8px
+    display: inline-block
+    width: 160px
+    text-align: center
+    border-radius: 8px
+    padding: 32px 48px
+    background-color: #eeeeee
+    font-family: $font-logo
+    font-size: 24px
+    color: $palette-light-red
+    margin-right: 24px
+    margin-bottom: 6px
+
+    &Group
+        display: inline-block
+
+.icon
+    &Img
+        width: 48px
+        height: 48px
+
+    &WithShadow
+        width: 80px
+        height: 80px
+        border-radius: 8px
+
+.palette
+    background-color: #fff
+    display: block
+    width: 500px
+    height: 75px
+    overflow: hidden
+    border-radius: 8px
+    margin-bottom: 12px
+
+.color
+    display: inline-block
+    width: 100px
+    height: 75px
+    position: relative
+
+    &Hex
+        opacity: 0
+        position: absolute
+        bottom: 0
+        left: 0
+        right: 0
+        text-align: center
+        transition: all 0.2s ease-in-out
+
+    &:hover &Hex
+        opacity: 1
+        bottom: 12px
+
+.fontSample
+    margin-top: 16px
+    padding-bottom: 16px
+    border-bottom: 1px solid #eee
+
+    &Text
+        margin-bottom: 8px
+        color: $color-secondary-text
+
+    &Caption
+        font-size: 13px
+        color: $color-third-text
+
+    &:last-of-type
+        border-bottom: none
