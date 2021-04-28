@@ -1,5 +1,4 @@
 import React from "react";
-import Hex from "../../components/hex/Hex";
 import Text from "../../components/text/Text";
 import Title from "../../components/title/Title";
 
